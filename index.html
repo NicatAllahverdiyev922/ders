@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>To do list</title>
+  
+      <link rel="stylesheet" href="style.css">
+      
+  </head>
+  
+  <body>
+  
+      <div class="wrapper">
+          <div class="content-box">
+              <h2>To Do List</h2>
+              <div class="sort">
+                  <img src="./img/sort.svg" alt="SortImg">
+              </div>
+  
+              <form>
+                  <div class="form-input">
+                      <input type="text" class="input-data" name="inputData" id="inputText" required placeholder="add...">
+                      <img src="./img/inputclose.svg" alt="InputClose" id="forminputClose">
+                  </div>
+                  <div class="d-flex-item">
+                      <div class="send-data">
+                          <div>+</div>
+                          <input type="submit" value="Добавить" class="btn" />
+                      </div>
+                  </div>
+              </form>
+              <ul class="list" style="display: none;">
+                  
+              </ul>
+          </div>
+      </div>
+  
+      <script src="main.js"></script>
+      
+  </body>
+  
+  </html>
